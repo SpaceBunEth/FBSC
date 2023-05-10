@@ -1,5 +1,6 @@
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import logo from 'public/fbsc-logo1.png'
+import Link from "next/link"
 
 export default function Example() {
   return (
@@ -48,7 +49,7 @@ export default function Example() {
             alt="Funky Bunny Smoke Club"
           />
           <div className="mt-24 sm:mt-32 lg:mt-16">
-            <a href="/soon" className="inline-flex space-x-6">
+            <Link href="/soon" className="inline-flex space-x-6">
               <span className="rounded-full bg-green-500/10 px-3 py-1 text-sm font-semibold leading-6 text-green-400 ring-1 ring-inset ring-green-500/20">
                 Web 3
               </span>
@@ -56,7 +57,7 @@ export default function Example() {
                 <span>Roadmap</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
               </span>
-            </a>
+            </Link>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Funky Bunny Smoke Club
@@ -65,15 +66,15 @@ export default function Example() {
           Our holistic health platform will be built on the principles of blockchain technology and NFTs. The platform will provide users with access to a range of natural health solutions, including herbal remedies, essential oils, cannabis, and psychedelics. The platform will also allow users to connect with holistic health practitioners and other members of the community. Our goal is to create a decentralized ecosystem that promotes natural health and wellness, with a focus on cannabis and psychedelics.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
-            <a
+            <Link
               href="/soon"
               className="rounded-md bg-green-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-400"
             >
               Store Front
-            </a>
-            <a href="/soon" className="text-sm font-semibold leading-6 text-white">
+            </Link>
+            <Link href="/soon" className="text-sm font-semibold leading-6 text-white">
               Learn more <span aria-hidden="true">→</span>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
